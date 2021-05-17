@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Poppins:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+
+#navbar {
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #fbceb1;
+    z-index: 15;
+
+
+}
+.logo {
+    height: 100%;
+    width: 10%;
+    background-color: whitesmoke;
+}
+
+#navbar a {
+    font-family: 'Anonymous Pro', monospace;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 5px 10px;
+    color: #4B8F8C;
+}
+
+#navbar .links {
+    text-align: right;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#landing-page {
+ width: 100%;
+ height: 100vh;
+ background-color: #fbceb1;
+
+}
+
+#landing-page h1 {
+    top: 5%;
+    left: 5%;
+    position:absolute;
+    color: whitesmoke;
+    font-family: 'Poppins' sans-serif;
+    font-size: 400px;
+    z-index: 10;
+    line-height: 1.1em;
+    user-select: none;
+}
+#landing-page div {
+    position:absolute;
+    border-radius: 50%;
+    
+    background-color: #92bfb1;
+
+}
+.bubble1  {
+    height: 200px;
+    width: 200px;
+    top: 60%;
+    left: 15%;
+}
+
+.bubble2 {
+    width: 275px;
+    height: 275px;
+    top: 25%;
+    left: 75%;
+}
